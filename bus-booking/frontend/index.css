@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: rgba(0,0,0,0.8);
+  padding: 20px;
+  border-radius: 12px;
+  width: 450px;
+}
+
+form input, form select, button {
+  width: 95%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.booking-item {
+  background: #222;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+.actions button {
+  margin-right: 10px;
+  background: #ff9800;
+}
+
+.actions .delete {
+  background: #e74c3c;
+}
